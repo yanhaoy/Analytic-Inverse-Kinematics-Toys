@@ -1,5 +1,6 @@
 # Analytic-Inverse-Kinematics-Toys
 
+Use TwistReal.m to simulate by operations on real numbers  
 Use TwistSolver.m to solve  
 Use TwistSimulator.m for simulation  
 Before:  
