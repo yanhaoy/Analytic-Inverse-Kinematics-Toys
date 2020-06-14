@@ -6,7 +6,7 @@ z_target=rand+0.5; raidus=rand; x_target=z_target*raidus*cos(rand*2*pi); y_targe
 
 x_s_camera=0.1; y_s_camera=-0.5; z_s_camera=0.5; % 世界坐标系下相机位置
 x_s_yaw=0;y_s_yaw=0;z_s_yaw=0; % 世界坐标系下yaw电机位置
-x_s_pitch=-0.25;y_s_pitch=0.5;z_s_pitch=0.25; % 世界坐标系下pitch电机位置
+x_s_pitch=-0.25;y_s_pitch=0.25;z_s_pitch=0.25; % 世界坐标系下pitch电机位置
 
 T_s_yaw_origin=[eye(3), [x_s_yaw; y_s_yaw; z_s_yaw]; 0, 0, 0, 1]; % 零度时世界坐标系到yaw电机
 T_s_pitch_origin=[[0, 0, -1; -1, 0, 0; 0, 1, 0], [x_s_pitch; y_s_pitch; z_s_pitch]; 0, 0, 0, 1]; % 零度时世界坐标系到pitch电机
